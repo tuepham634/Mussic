@@ -1,5 +1,5 @@
 "use client"
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import Title from "@/app/components/title/Title";
 import { authFirebase, dbFirebase } from "@/app/firebaseConfig";
 import { createUserWithEmailAndPassword } from "firebase/auth";

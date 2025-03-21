@@ -1,5 +1,5 @@
 "use client"
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import CardInfo from "@/app/components/card/CardInfo";
 import { dbFirebase } from "@/app/firebaseConfig";
 import { onValue, ref } from "firebase/database";

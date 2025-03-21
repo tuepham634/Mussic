@@ -1,5 +1,5 @@
 "use client"
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export default function PlayTime() {
   const handleChange = (event:any) => {
     const input = event.target.value;

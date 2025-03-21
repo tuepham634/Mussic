@@ -1,6 +1,6 @@
 "use client"
 import { FaPlay } from "react-icons/fa";
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export default function ButtonPlay(props: any){
     const {id,image, title, singer,audio,className=""} = props;
     const handlePlay = ()=> {

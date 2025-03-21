@@ -3,7 +3,7 @@ import PlayInfo from "./PlayInfo";
 import PlayActions from "./PlayActions";
 import PlayTime from "./PlayTime";
 import PlayVolume from "./PlayVolume";
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export default function Play() {
     return (
       <>
