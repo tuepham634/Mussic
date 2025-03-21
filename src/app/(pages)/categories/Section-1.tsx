@@ -16,7 +16,7 @@ export default function Section1() {
       const data = snapshot.val();
       if (data) {
         //lặp qua mảng singerId xong tìm bản ghi ca sĩ có id đó
-        let categoriesArray = Object.keys(data).map((key) => ({
+        const categoriesArray = Object.keys(data).map((key) => ({
           key: key,
           image: data[key].image,
           title: data[key].title,
