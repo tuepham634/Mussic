@@ -1,7 +1,7 @@
 "use client"
 import { useRouter, useSearchParams } from "next/navigation";
 import { IoSearch } from "react-icons/io5";
-
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export default function Search() {
     const router = useRouter()
     const params = useSearchParams();

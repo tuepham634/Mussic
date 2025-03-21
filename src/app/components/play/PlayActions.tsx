@@ -1,7 +1,7 @@
 "use client"
 import { FaPause, FaPlay } from "react-icons/fa";
 import { FaBackwardStep, FaForwardStep } from "react-icons/fa6";
-
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export default function PlayActions() {
     const handlePlay = () => {
         const elementPlayAudio: any = document.querySelector(".play-audio");

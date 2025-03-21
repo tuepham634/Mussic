@@ -5,7 +5,7 @@ import { authFirebase, dbFirebase } from "@/app/firebaseConfig";
 import { onAuthStateChanged } from "firebase/auth";
 import { onValue, ref } from "firebase/database";
 import { useEffect, useState } from "react";
-
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export default function Section1() {
 
   const [dataFinal, setDataFinal] = useState<any>();

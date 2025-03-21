@@ -1,5 +1,6 @@
 import Section2 from "./Section-2";
 import Section1 from "./Section-1";
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export default async function SingerDetailPage({params } :any) {
     const {id} = await params;
     return (

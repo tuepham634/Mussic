@@ -1,7 +1,7 @@
 import Link from "next/link";
 import ButtonPlay from "../button/ButtonPlay";
 import ButtonHeart from "../button/ButtonHeart";
-
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export default function SongItem(props : any){
     const {id,image, title, singer, listen, link} = props;
     return (
