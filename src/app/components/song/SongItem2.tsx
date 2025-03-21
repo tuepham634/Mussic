@@ -1,4 +1,3 @@
-import {FaRegHeart } from "react-icons/fa";
 import ButtonPlay from "../button/ButtonPlay";
 import ButtonHeart2 from "../button/ButtonHear2";
 

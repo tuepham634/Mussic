@@ -7,32 +7,7 @@ import { onValue, ref } from "firebase/database";
 import { useEffect, useState } from "react";
 
 export default function Section1() {
-  const data = [
-    {
-      image: "/demo/image6.png",
-      title: "Cô Phòng",
-      singer: "Hồ Quang Hiếu ,Huỳnh Văn",
-      time: "4:32",
-    },
-    {
-      image: "/demo/image6.png",
-      title: "Cô Phòng",
-      singer: "Hồ Quang Hiếu ,Huỳnh Văn",
-      time: "4:32",
-    },
-    {
-      image: "/demo/image6.png",
-      title: "Cô Phòng",
-      singer: "Hồ Quang Hiếu ,Huỳnh Văn",
-      time: "4:32",
-    },
-    {
-      image: "/demo/image6.png",
-      title: "Cô Phòng",
-      singer: "Hồ Quang Hiếu ,Huỳnh Văn",
-      time: "4:32",
-    },
-  ];
+
   const [dataFinal, setDataFinal] = useState<any>();
   useEffect(() => {
     onAuthStateChanged(authFirebase, (user) => {

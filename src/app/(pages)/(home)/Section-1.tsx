@@ -11,8 +11,6 @@ export default function Section1() {
 
   useEffect(() => {
     const songsRef = ref(dbFirebase, "songs");
-    const singersRef = ref(dbFirebase, "singers");
-
     onValue(songsRef, (snapshot) => {
       const data = snapshot.val();
       if(data){

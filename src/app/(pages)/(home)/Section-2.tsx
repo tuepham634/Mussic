@@ -35,8 +35,8 @@ export default function Section2() {
       </div>
       <div className="grid grid-cols-5 gap-[20px]">
         {dataFinal && (
-            dataFinal.map((item :any) => (
-                <CardItem key={item.id} {...item} />
+            dataFinal.map((item :any,index: number) => (
+                <CardItem key={index} {...item} />
             ))
         )}
         

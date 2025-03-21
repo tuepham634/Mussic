@@ -1,10 +1,9 @@
 import Link from "next/link";
-import { FaHeart} from "react-icons/fa";
 import ButtonPlay from "../button/ButtonPlay";
 import ButtonHeart from "../button/ButtonHeart";
 
-export default function SongItem(props :any){
-    const {id,image, title, singer, listen, link,audio} = props;
+export default function SongItem(props : any){
+    const {id,image, title, singer, listen, link} = props;
     return (
         <>
             <div className="flex items-center justify-between bg-[#212121] p-[10px] mb-[12px] rounded-[15px]" data-song={id}>

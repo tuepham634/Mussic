@@ -1,4 +1,3 @@
-import Title from "@/app/components/title/Title";
 import Section3 from "./Section-3";
 import Section1 from "./Section-1";
 import Section2 from "./Section-2";
